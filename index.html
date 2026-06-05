@@ -1,12 +1,176 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="es">
+
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='main.css'>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SimplyVera</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
-    <div>hola</div>
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a class="logo">
+
+                <img src="images/logo.png">
+
+                <h2>simplyvera</h2>
+
+            </a>
+
+            <nav class="desktop-nav">
+
+                <a href="#">INICIO</a>
+                <a href="#">SOBRE MÍ</a>
+                <a href="#">CV</a>
+                <a href="#">VALORES</a>
+                <a href="#">TESTIMONIOS</a>
+                <a href="#">CONTACTO</a>
+
+            </nav>
+
+            <button class="menu-btn" id="menuBtn">
+
+                <i data-lucide="menu" id="menuIcon"></i>
+
+            </button>
+
+        </div>
+
+        <nav class="mobile-nav" id="mobileMenu">
+
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mí</a>
+            <a href="#">CV</a>
+            <a href="#">Valores</a>
+            <a href="#">Testimonios</a>
+            <a href="#">Contacto</a>
+
+        </nav>
+
+    </header>
+
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+
+                    PSICÓLOGA · BELLEZA · BIENESTAR
+
+                </p>
+
+                <h1>
+
+                    simplyvera
+
+                </h1>
+
+                <h3>
+
+                    get ready with me... for life
+
+                </h3>
+
+                <p class="description">
+
+                    Compartiendo contenido auténtico sobre experiencias,
+                    pensamientos y rutinas. Un espacio cercano donde puedas
+                    sentirte inspirada, identificada y acompañada.
+
+                </p>
+
+                <div class="buttons">
+
+                    <a class="btn filled">
+
+                        CONÓCEME
+
+                    </a>
+
+                    <a class="btn outlined">
+
+                        CONTACTO
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="big-circle">
+
+                    <img src="images/veronica.png">
+
+                </div>
+
+                <div class="outline-circle"></div>
+
+                <div class="small-circle"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+
+        lucide.createIcons();
+
+        const btn = document.getElementById("menuBtn");
+
+        const menu = document.getElementById("mobileMenu");
+
+        const icon = document.getElementById("menuIcon");
+
+        btn.addEventListener("click", () => {
+
+            menu.classList.toggle("active");
+
+            if (menu.classList.contains("active")) {
+
+                icon.setAttribute("data-lucide", "x");
+
+            } else {
+
+                icon.setAttribute("data-lucide", "menu");
+
+            }
+
+            icon.innerHTML = "";
+
+            lucide.createIcons();
+
+        });
+
+    </script>
+
 </body>
+
 </html>
