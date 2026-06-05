@@ -337,6 +337,512 @@ body {
 
 }
 
+/* ABOUT */
+
+.about-section {
+
+    padding: 130px 0 140px;
+
+    background: #F6F2EE;
+
+}
+
+.about-container {
+
+    max-width: 860px;
+
+    margin: auto;
+
+    width: 90%;
+
+}
+
+.section-header {
+
+    text-align: center;
+
+    margin-bottom: 90px;
+
+}
+
+.about-subtitle {
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    color: #8a6d59;
+
+    margin-bottom: 15px;
+
+}
+
+.section-header h2 {
+
+    font-family: "Cormorant Garamond";
+
+    font-size: 55px;
+
+    font-weight: 300;
+
+    margin-bottom: 15px;
+
+    color: #5d4332;
+
+}
+
+.line {
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #9a6845;
+
+    margin: auto;
+
+}
+
+.about-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 90px;
+
+    margin-bottom: 80px;
+
+}
+
+.about-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+.pill {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 8px 16px;
+
+    border-radius: 40px;
+
+    background: #ece2d8;
+
+    width: fit-content;
+
+    font-size: 12px;
+
+    color: #80593d;
+
+}
+
+.pill svg {
+
+    width: 14px;
+
+    height: 14px;
+
+}
+
+.about-card p {
+
+    font-size: 16px;
+
+    line-height: 1.4;
+
+    color: #634d3d;
+
+}
+
+.about-card strong {
+
+    font-weight: 600;
+
+}
+
+.value-box {
+
+    border: 1px solid #d7c8bb;
+
+    padding: 34px;
+
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, .15);
+
+}
+
+.value-title {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 25px;
+
+}
+
+.value-title h3 {
+
+    font-family: "Cormorant Garamond";
+
+    font-size: 34px;
+
+    font-weight: 400;
+
+    color: #694a37;
+
+}
+
+.value-box p {
+
+    font-size: 16px;
+
+    line-height: 1.4;
+
+    color: #634d3d;
+
+}
+
+/* CV */
+
+.resume-section {
+
+    padding: 80px 0;
+
+    background: #F6F2EE;
+
+}
+
+.resume-container {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    width: 90%;
+
+}
+
+.resume-card {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 28px 35px;
+
+    border: 1px solid #d8cbbf;
+
+    border-radius: 14px;
+
+}
+
+.resume-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.resume-icon {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    background: #ece2d8;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.resume-left h3 {
+
+    font-family: "Cormorant Garamond";
+
+    font-size: 32px;
+
+    font-weight: 400;
+
+    margin-bottom: 6px;
+
+}
+
+.resume-left p {
+
+    font-size: 14px;
+
+}
+
+.resume-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+.cv-btn {
+
+    padding: 12px 22px;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    gap: 8px;
+
+    align-items: center;
+
+    font-size: 14px;
+    border: none;
+
+    cursor: pointer;
+
+    font-family: inherit;
+
+
+
+}
+
+.cv-btn.outline {
+
+    border: 1px solid #956038;
+
+    color: #956038;
+
+}
+
+.cv-btn.filled {
+
+    background: #956038;
+
+    color: white;
+
+}
+
+
+/* VALUES */
+
+.values-section {
+
+    padding: 120px 0;
+
+    background: #faf7f3;
+
+}
+
+.values-container {
+
+    max-width: 950px;
+
+    margin: auto;
+
+    width: 90%;
+
+}
+
+.values-header {
+
+    text-align: center;
+
+    margin-bottom: 70px;
+
+}
+
+.values-header p {
+
+    font-size: 11px;
+
+    letter-spacing: 5px;
+
+    margin-bottom: 20px;
+
+}
+
+.values-header h2 {
+
+    font-family: "Cormorant Garamond";
+
+    font-size: 58px;
+
+    font-weight: 400;
+
+    margin-bottom: 20px;
+
+}
+
+.values-line {
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #9d6c46;
+
+    margin: auto;
+
+}
+
+.values-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+.value-card {
+
+    border: 1px solid #d9ccc0;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+}
+
+.value-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background: #eee3d8;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+}
+
+.value-card h3 {
+
+    font-family: "Cormorant Garamond";
+
+    margin-bottom: 18px;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+}
+
+.value-card p {
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+}
+
+.values-quote {
+
+    margin-top: 70px;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond";
+
+    font-style: italic;
+
+    font-size: 30px;
+
+    line-height: 1.4;
+
+    color: #7b5a44;
+
+}
+
+/* RESPONSIVE */
+
+
+
+@media(max-width:900px) {
+
+    .about-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+
+    }
+
+    .section-header h2 {
+
+        font-size: 48px;
+
+    }
+
+    .value-title h3 {
+
+        font-size: 28px;
+
+    }
+
+    .resume-card {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+    .values-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .values-header h2 {
+
+        font-size: 42px;
+
+    }
+
+    .values-quote {
+
+        font-size: 28px;
+
+    }
+
+}
+
 /* RESPONSIVE */
 
 @media(max-width:1000px) {
