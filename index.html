@@ -18,6 +18,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
@@ -39,16 +40,16 @@
 
                 <a href="#">INICIO</a>
                 <a href="#sobre-mi">SOBRE MÍ</a>
-                <a href="#">CV</a>
-                <a href="#">VALORES</a>
-                <a href="#">TESTIMONIOS</a>
-                <a href="#">CONTACTO</a>
+                <a href="#cv">CV</a>
+                <a href="#valores" valores>VALORES</a>
+                <a href="#testimonios">TESTIMONIOS</a>
+                <a href="#contacto">CONTACTO</a>
 
             </nav>
 
             <button class="menu-btn" id="menuBtn">
 
-                <i data-lucide="menu" id="menuIcon"></i>
+                <i data-lucide="menu"></i>
 
             </button>
 
@@ -57,11 +58,11 @@
         <nav class="mobile-nav" id="mobileMenu">
 
             <a href="#">Inicio</a>
-            <a href="#">Sobre mí</a>
-            <a href="#">CV</a>
-            <a href="#">Valores</a>
-            <a href="#">Testimonios</a>
-            <a href="#">Contacto</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#cv">CV</a>
+            <a href="#valores">Valores</a>
+            <a href="#testimonios">Testimonios</a>
+            <a href="#contacto">Contacto</a>
 
         </nav>
 
@@ -102,13 +103,13 @@
 
                 <div class="buttons">
 
-                    <a class="btn filled">
+                    <a href="#sobre-mi" class="btn filled">
 
                         CONÓCEME
 
                     </a>
 
-                    <a class="btn outlined">
+                    <a href="#contacto" class="btn outlined">
 
                         CONTACTO
 
@@ -399,35 +400,637 @@
         </div>
 
     </section>
+    <section class="audience-section" id="publico">
+
+        <div class="audience-container">
+
+            <div class="section-title">
+
+                <p>
+
+                    MI COMUNIDAD
+
+                </p>
+
+                <h2>
+
+                    Público Objetivo
+
+                </h2>
+
+                <div class="section-line"></div>
+
+            </div>
+
+
+            <div class="audience-grid">
+
+                <div class="audience-card">
+
+                    <div class="corner"></div>
+
+                    <div class="audience-icon">
+
+                        <i data-lucide="sparkles"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Mujeres jóvenes
+
+                    </h3>
+
+                    <p>
+
+                        Interesadas por la belleza y lifestyle,
+                        que buscan inspiración en su rutina diaria
+                        y quieren conectar con contenido femenino
+                        y auténtico.
+
+                    </p>
+
+                </div>
+
+
+                <div class="audience-card">
+
+                    <div class="corner"></div>
+
+                    <div class="audience-icon">
+
+                        <i data-lucide="target"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Personas jóvenes
+
+                    </h3>
+
+                    <p>
+
+                        Que buscan contenido real y relatable.
+                        Jóvenes que disfruten escuchar opiniones,
+                        experiencias y momentos cotidianos.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="vision-section">
+
+        <div class="vision-container">
+
+            <div class="vision-header">
+
+                <h2>
+
+                    Mi Vision Board
+
+                </h2>
+
+                <p>
+
+                    Mis sueños y metas que me inspiran cada día
+                    a seguir creciendo personal y profesionalmente.
+
+                </p>
+
+            </div>
+
+
+            <div class="vision-grid">
+
+                <div class="vision-image">
+
+                    <img src="./images/vision-board.png">
+
+                </div>
+
+
+                <div>
+
+                    <h3 class="dream-title">
+
+                        Mis Sueños y Metas
+
+                    </h3>
+
+
+                    <div class="dreams-list">
+
+                        <div class="dream-card">
+
+                            <span>1</span>
+
+                            <div>
+
+                                <h4>Carrera Profesional</h4>
+
+                                <p>Ser una psicóloga importante y la mejor</p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="dream-card">
+
+                            <span>2</span>
+
+                            <div>
+
+                                <h4>Libertad Financiera</h4>
+
+                                <p>Mucho dinero y estabilidad económica</p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="dream-card">
+
+                            <span>3</span>
+
+                            <div>
+
+                                <h4>Bienes Propios</h4>
+
+                                <p>Tener mi propia finca, carro y apartamento</p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="dream-card">
+
+                            <span>4</span>
+
+                            <div>
+
+                                <h4>Viajar</h4>
+
+                                <p>Conocer el mundo y vivir experiencias únicas</p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="dream-card">
+
+                            <span>5</span>
+
+                            <div>
+
+                                <h4>Familia</h4>
+
+                                <p>Casarme, tener familia y muchos perros</p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="dream-card">
+
+                            <span>6</span>
+
+                            <div>
+
+                                <h4>Bienestar</h4>
+
+                                <p>Tener un super cuerpo y una vida saludable</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <blockquote class="vision-quote">
+
+                "Visualiza tus sueños, trabaja por ellos y conviértelos en realidad"
+
+            </blockquote>
+
+        </div>
+
+    </section>
+    <section class="testimonials-section" id="testimonios">
+
+        <div class="testimonial-container">
+
+            <div class="section-title">
+
+                <p>LO QUE DICEN DE MÍ</p>
+
+                <h2>Lo Que Dicen De Mí</h2>
+
+                <div class="section-line"></div>
+
+                <span class="subtitle">
+
+                    Testimonios y opiniones de personas que han sido parte de mi comunidad
+
+                </span>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="quote-mark">
+
+                    ❞
+
+                </div>
+
+                <p id="testimonial-text">
+
+                    "Es una persona responsable y muy sensible con los demás."
+
+                </p>
+
+                <div class="testimonial-avatar" id="testimonial-avatar">
+
+                    M
+
+                </div>
+
+                <h4 id="testimonial-name">
+
+                    Mamá
+
+                </h4>
+
+                <span id="testimonial-role">
+
+                    Familia
+
+                </span>
+
+                <div class="slider-controls">
+
+                    <button onclick="changeSlide(-1)">‹</button>
+
+                    <div class="dots">
+
+                        <span class="dot active"></span>
+
+                        <span class="dot"></span>
+
+                        <span class="dot"></span>
+
+                        <span class="dot"></span>
+
+                        <span class="dot"></span>
+
+                    </div>
+
+                    <button onclick="changeSlide(1)">›</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="dofa-section">
+
+        <div class="dofa-container">
+
+            <div class="section-title">
+
+                <p>
+
+                    ANÁLISIS ESTRATÉGICO
+
+                </p>
+
+                <h2>
+
+                    Matriz DOFA
+
+                </h2>
+
+                <div class="section-line"></div>
+
+            </div>
+
+
+            <div class="dofa-tabs">
+
+                <button class="tab active" onclick="showBigBox('fortalezas',this)">
+
+                    <i data-lucide="shield"></i>
+
+                    Fortalezas
+
+                </button>
+
+                <button class="tab" onclick="showBigBox('oportunidades',this)">
+
+                    <i data-lucide="trending-up"></i>
+
+                    Oportunidades
+
+                </button>
+
+                <button class="tab" onclick="showBigBox('debilidades',this)">
+
+                    <i data-lucide="triangle-alert"></i>
+
+                    Debilidades
+
+                </button>
+
+                <button class="tab" onclick="showBigBox('amenazas',this)">
+
+                    <i data-lucide="shield-alert"></i>
+
+                    Amenazas
+
+                </button>
+
+            </div>
+
+
+            <!-- CUADRO GRANDE -->
+
+            <div class="big-dofa green show-box" id="fortalezas">
+
+                <h3><i data-lucide="shield"></i> Fortalezas</h3>
+
+                <ul>
+
+                    <li>Autenticidad y cercanía al comunicar</li>
+
+                    <li>Interés genuino por bienestar</li>
+
+                    <li>Personalidad femenina</li>
+
+                    <li>Contenido cotidiano</li>
+
+                    <li>Imagen versátil</li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="big-dofa blue" id="oportunidades">
+
+                <h3><i data-lucide="trending-up"></i> Oportunidades</h3>
+
+                <ul>
+
+                    <li>Crecimiento redes sociales</li>
+
+                    <li>Psicología femenina</li>
+
+                    <li>Colaboraciones</li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="big-dofa yellow" id="debilidades">
+
+                <h3><i data-lucide="triangle-alert"></i> Debilidades</h3>
+
+                <ul>
+
+                    <li>Inseguridad al hablar</li>
+
+                    <li>Falta experiencia creando contenido</li>
+
+                    <li>Poca constancia</li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="big-dofa red" id="amenazas">
+
+                <h3><i data-lucide="shield-alert"></i> Amenazas</h3>
+
+                <ul>
+
+                    <li>Alta competencia</li>
+
+                    <li>Críticas negativas</li>
+
+                    <li>Cambios algoritmos</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CUADROS PEQUEÑOS ABAJO -->
+
+            <div class="mini-grid">
+
+                <div class="mini green">
+                    <h4>
+                        <i data-lucide="shield"></i>
+                        Fortalezas
+                    </h4>
+
+                    <ul>
+                        <li>Autenticidad y cercanía al comunicar</li>
+                        <li>Interés por la belleza, la salud mental y las mascotas</li>
+                        <li>Personalidad femenina</li>
+                        <li>Contar experiencias cotidianas</li>
+                        <li>Imagen versátil</li>
+                    </ul>
+                </div>
+
+                <div class="mini blue">
+                    <h4>
+                        <i data-lucide="trending-up"></i>
+                        Oportunidades
+                    </h4>
+
+                    <ul>
+                        <li>Crecimiento de contenido en redes sociales</li>
+                        <li>Posibilidad de aumentar la comunidad digital</li>
+                        <li>Colaboración con marcas de skincare, moda y mascotas</li>
+                        <li>Mayor interés por el bienestar emocional</li>
+                        <li>Tendencia al consumo de contenido auténtico</li>
+                    </ul>
+                </div>
+
+                <div class="mini yellow">
+                    <h4>
+                        <i data-lucide="triangle-alert"></i>
+                        Debilidades
+                    </h4>
+
+                    <ul>
+                        <li>Inseguridad al iniciar en redes sociales</li>
+                        <li>Falta de experiencia creando contenido</li>
+                        <li>Miedo a mostrarse auténticamente</li>
+                        <li>Poco conocimiento en marketing digital</li>
+                        <li>Dificultad para mantener constancia inicial</li>
+                    </ul>
+                </div>
+
+                <div class="mini red">
+                    <h4>
+                        <i data-lucide="shield-alert"></i>
+                        Amenazas
+                    </h4>
+
+                    <ul>
+                        <li>Alta competencia entre creadores de contenido</li>
+                        <li>Comentarios negativos o críticas</li>
+                        <li>Cambios frecuentes en algoritmos</li>
+                        <li>Evolución rápida de las tendencias digitales</li>
+                        <li>Comparación constante con otros creadores</li>
+                    </ul>
+                </div>
+            </div>
+
+    </section>
+    <section class="contacto" id="contacto">
+
+        <div class="section-title">
+
+            <p>CONECTEMOS</p>
+
+            <h2>Contacto</h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+        <div class="contacto-grid">
+
+            <div class="contacto-info">
+
+                <p class="contacto-texto">
+                    Me encantaría conectar contigo. Sígueme en mis redes
+                    sociales para contenido diario sobre belleza, bienestar,
+                    psicología y momentos de la vida real.
+                </p>
+
+                <div class="social-card">
+                    <div class="icon-circle">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/veronicaberriop?"><span>Instagram</span>
+                            <strong>@simplyvera</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="social-card">
+                    <div class="icon-circle">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+
+                    <div>
+                        <a href="https://www.tiktok.com/@veron1ca.beep?_r=1&_t=ZS-96yAXF5KPEy">
+                            <span>TikTok</span>
+                            <strong>@simplyvera</strong>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <a href="mailto:veronik.berrio1@gmail.com " class="email-link">
+
+                    <i data-lucide="mail"></i>
+
+                    veronik.berrio1@gmail.com
+
+                </a>
+
+            </div>
+
+            <div class="contacto-imagen">
+
+                <img src="./images/logo.png" alt="Simply Vera">
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <img src="./images/logo.png" alt="Simply Vera">
+
+                <span>simplyvera</span>
+
+            </div>
+
+            <p class="footer-slogan">
+                get ready with me... for life
+            </p>
+
+            <p class="footer-copy">
+                © 2026 simplyvera. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <script>
 
         lucide.createIcons();
-
         const btn = document.getElementById("menuBtn");
-
         const menu = document.getElementById("mobileMenu");
-
-        const icon = document.getElementById("menuIcon");
 
         btn.addEventListener("click", () => {
 
             menu.classList.toggle("active");
 
             if (menu.classList.contains("active")) {
-
-                icon.setAttribute("data-lucide", "x");
-
+                btn.innerHTML = '<i data-lucide="x"></i>';
             } else {
-
-                icon.setAttribute("data-lucide", "menu");
-
+                btn.innerHTML = '<i data-lucide="menu"></i>';
             }
 
-            icon.innerHTML = "";
-
             lucide.createIcons();
+        });
+        document.querySelectorAll(".mobile-nav a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                menu.classList.remove("active");
+                btn.classList.remove("active");
+
+            });
 
         });
         function downloadCV() {
@@ -455,6 +1058,106 @@
                 });
 
         }
+
+        const testimonials = [
+
+            {
+                name: "Mamá",
+                role: "Familia",
+                avatar: "M",
+                text: "Es una persona responsable y muy sensible con los demás."
+            },
+
+            {
+                name: "Amigo",
+                role: "Amistad",
+                avatar: "A",
+                text: "Siempre escucha y da buenos consejos."
+            },
+
+            {
+                name: "Amiga",
+                role: "Amistad",
+                avatar: "A",
+                text: "Es creativa y dedicada con sus trabajos."
+            },
+
+            {
+                name: "Familiar",
+                role: "Familia",
+                avatar: "F",
+                text: "Le gustan mucho los animales y ayudar a otros."
+            },
+
+            {
+                name: "Amiga",
+                role: "Comunidad",
+                avatar: "A",
+                text: "Transmite tranquilidad y confianza."
+            }
+
+        ];
+
+        let current = 0;
+
+        function changeSlide(direction) {
+
+            current += direction;
+
+            if (current < 0) {
+
+                current = testimonials.length - 1;
+
+            }
+
+            if (current >= testimonials.length) {
+
+                current = 0;
+
+            }
+
+            const t = testimonials[current];
+
+            document.getElementById("testimonial-text").innerText = `"${t.text}"`;
+
+            document.getElementById("testimonial-name").innerText = t.name;
+
+            document.getElementById("testimonial-role").innerText = t.role;
+
+            document.getElementById("testimonial-avatar").innerText = t.avatar;
+
+
+
+            const dots = document.querySelectorAll(".dot");
+
+            dots.forEach(dot => {
+
+                dot.classList.remove("active");
+
+            });
+
+            dots[current].classList.add("active");
+
+        }
+
+        function showBigBox(id, btn) {
+
+            document.querySelectorAll(".big-dofa")
+
+                .forEach(box => box.classList.remove("show-box"));
+
+            document.getElementById(id)
+
+                .classList.add("show-box");
+
+            document.querySelectorAll(".tab")
+
+                .forEach(tab => tab.classList.remove("active"));
+
+            btn.classList.add("active");
+
+        }
+
 
     </script>
 
